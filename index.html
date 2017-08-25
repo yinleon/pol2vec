@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+</html>
+  <meta charset="utf-8">
+  <style>
+    body {
+      background: #fcfcfa;
+    }
+
+    .stroke {
+      fill: none;
+      stroke: #000;
+      stroke-width: 3px;
+    }
+
+    .fill {
+      fill: #fff;
+    }
+
+    .graticule {
+      fill: none;
+      stroke: #777;
+      stroke-width: .5px;
+      stroke-opacity: .3;
+    }
+
+    .land {
+      fill: #2c2c2c;
+    }
+
+    .boundary {
+      fill: none;
+      stroke: #fff;
+      stroke-width: .5px;
+    }
+
+    .symbol {
+      fill-opacity: .8;
+      stroke: #fff;
+    }
+
+    .tooltip {
+      position: absolute;
+      text-align: center;
+      width: 120px;
+      height: 84px;
+      padding: 8px;
+      margin-top: -30px;
+      font: 9px sans-serif;
+      background: #ddd;
+      pointer-events: none;
+      text-align: left;
+    }
+
+    /*added for zoom*/
+    svg {
+      background: #fff;
+    }
+
+    .overlay {
+      fill: none;
+      pointer-events: all;
+    }
+
+    /*for title and legend*/
+    html { font-size: 60%; } 
+
+    .title {
+        font-size: 2.8rem;
+        fill: #4F4F4F;
+        font-weight: 300;
+    }
+
+    .axis path, .axis tick, .axis line {
+          fill: none;
+          stroke: none;
+      }
+
+    text {
+          font-size: 1.2rem;
+          fill: #4F4F4F;
+          font-weight: 400;
+
+  </style>
+  <head>
+    <script src="//d3js.org/d3.v3.min.js"></script>
+    <script src="//d3js.org/d3.geo.projection.v0.min.js"></script>
+    <script src="//d3js.org/topojson.v1.min.js"></script>
+  </head>
+  <body>  
+    test
+    <script src="script.js"></script>
+  <body>
+</html>
